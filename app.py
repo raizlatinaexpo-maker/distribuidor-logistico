@@ -53,11 +53,11 @@ step=0.1
 
 if st.button("Procesar Pedido"):
 
-try:
+   try:
 
-    if not pdf_file:
+     if not pdf_file:
 
-        st.error(
+         st.error(
             "Debes subir el PDF"
         )
 
@@ -274,8 +274,8 @@ try:
             mime="application/zip"
         )
 
-   except Exception as e:
+      except Exception as e:
 
-     st.error(
-        str(e)
-    )
+         st.error(
+           str(e)
+        )
