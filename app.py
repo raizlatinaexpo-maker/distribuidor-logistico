@@ -274,8 +274,8 @@ try:
             mime="application/zip"
         )
 
-except Exception as e:
+   except Exception as e:
 
-    st.error(
+     st.error(
         str(e)
     )
