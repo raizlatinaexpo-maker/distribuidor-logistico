@@ -274,7 +274,7 @@ if st.button("Procesar Pedido"):
             mime="application/zip"
         )
 
-      except Exception as e:
+     except Exception as e:
 
          st.error(
            str(e)
