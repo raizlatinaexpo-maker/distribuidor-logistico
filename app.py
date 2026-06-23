@@ -61,7 +61,7 @@ if st.button("Procesar Pedido"):
             "Debes subir el PDF"
         )
 
-    else:
+     else:
 
         order = extract_order_data(
             pdf_file
